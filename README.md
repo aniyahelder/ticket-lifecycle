@@ -15,40 +15,58 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- osTicket
+- HeidiSQL
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
 
-<h2>Ticket Lifecycle Stages</h2>
+<h2>High Level List of Steps</h2>
 
 - Intake
 - Assignment and Communication
 - Working the Issue
 - Resolution
 
-<h2>Lifecycle Stages</h2>
+<h2>Visual Walkthrough</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/F9pNEtR.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First, in the VM go to http://localhost/osTicket/ and open a new ticket.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JRuHkIc.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now choose either Ken or Karen, a help topic, create whatever summary and description that you'd like, and then create the ticket.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/o92b2CF.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now go to http://localhost/osTicket/scp/login.php in your VMs browser and go to the Agent Panel.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/HWxKoFu.png"/>
+</p>
+<p>
+Now set the SLA to SEV-B and assign the ticket to an agent or the admin user.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/pqUE1tr.png"/>
+</p>
+<p>
+Then respond to the ticket with any response you want and decide if the ticket should remain open or resolved if you implemented a solution and fixed the issue. Then just continue to practice making up/creating tickets and working through them as many times as you want!
+  
+Don't forget to clean up your resources in Azure or turn off your VM so you don't incur extra charges.
