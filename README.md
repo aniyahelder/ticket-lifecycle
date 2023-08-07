@@ -56,7 +56,7 @@ Now go to http://localhost/osTicket/scp/login.php in your VMs browser and go to 
 <br />
 
 <p>
-<img src="https://i.imgur.com/HWxKoFu.png"/>
+<img src="https://i.imgur.com/lVRKKj6.png"/>
 </p>
 <p>
 Now set the SLA to SEV-B and assign the ticket to an agent or the admin user.
