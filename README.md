@@ -48,7 +48,7 @@ Now choose either Ken or Karen, a help topic, create whatever summary and descri
 <br />
 
 <p>
-<img src="https://i.imgur.com/o92b2CF.png"/>
+<img src="https://i.imgur.com/lVRKKj6.png"/>
 </p>
 <p>
 Now go to http://localhost/osTicket/scp/login.php in your VMs browser and go to the Agent Panel.
